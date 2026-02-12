@@ -313,7 +313,7 @@ export default function App() {
         <div className="flex whitespace-nowrap marquee-track">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex items-center gap-8 mr-8">
-              {['14 States', '24+ Locations', '$4,300/mo Avg Pay', 'Furnished Housing', 'AI-Powered Tech', 'Founded 2013', 'Top Workplaces 2023', 'How Hard Can It Be'].map((t, j) => (
+              {['14 States', '24+ Locations', '$4,300/mo Avg Pay', 'Furnished Housing', 'AI-Powered Tech', 'Founded 2013', 'Top Workplaces 2023', 'Now Hiring 2026'].map((t, j) => (
                 <span key={j} className="flex items-center gap-8">
                   <span className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500">{t}</span>
                   <span className="text-hawx-green/30 text-xs">◆</span>
@@ -372,19 +372,6 @@ export default function App() {
             </Reveal>
           </div>
         </div>
-      </section>
-
-      {/* ── "HOW HARD CAN IT BE" DIVIDER ── */}
-      <section className="relative py-16 md:py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-hawx-green/[0.03] to-transparent" />
-        <Reveal>
-          <div className="relative z-10 text-center">
-            <p className="text-[clamp(2rem,5vw,4.5rem)] font-black tracking-tight text-white uppercase leading-none select-none">
-              How Hard Can It Be
-            </p>
-            <p className="text-xs uppercase tracking-[0.4em] text-hawx-green/50 mt-4 font-medium">The Hawx founding mentality</p>
-          </div>
-        </Reveal>
       </section>
 
       {/* ── ABOUT STRIP (enhanced) ── */}
@@ -644,7 +631,7 @@ export default function App() {
         <Reveal>
           <div className="max-w-4xl mx-auto px-6 md:px-10 text-center">
             <blockquote className="text-xl md:text-2xl font-extralight text-white/60 leading-snug tracking-tight" style={{ fontStyle: 'normal' }}>
-              "How hard can it be?"
+              "Time is more valuable than money. Invest it wisely."
             </blockquote>
             <p className="text-sm text-hawx-green/40 mt-4 font-medium tracking-wide">Michael Paulus</p>
           </div>
