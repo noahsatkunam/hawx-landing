@@ -325,7 +325,7 @@ export default function App() {
       </section>
 
       {/* ── STATS ── */}
-      <section className="py-28 md:py-36 mesh-bg">
+      <section className="py-28 md:py-36 mesh-bg overflow-hidden">
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
           <Reveal>
             <p className="text-xs uppercase tracking-[0.3em] text-hawx-green/70 mb-16 font-medium">By the numbers</p>
