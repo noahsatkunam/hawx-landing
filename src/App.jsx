@@ -313,7 +313,7 @@ export default function App() {
         <div className="flex whitespace-nowrap marquee-track">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex items-center gap-8 mr-8">
-              {['14 States', '24+ Locations', '$4,300/mo Avg Pay', 'Furnished Housing', 'AI-Powered Tech', 'Founded 2013', 'Top Workplaces 2023', 'Now Hiring 2026'].map((t, j) => (
+              {['14 States', '24+ Locations', '$4,300/mo Avg Pay', 'Top Sales Training', 'AI-Powered Tech', 'Founded 2013', 'Top Workplaces 2023', 'Now Hiring 2026'].map((t, j) => (
                 <span key={j} className="flex items-center gap-8">
                   <span className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500">{t}</span>
                   <span className="text-hawx-green/30 text-xs">◆</span>
@@ -388,7 +388,7 @@ export default function App() {
                 43% of US internships are unpaid. Hawx pays <span className="text-white">more than double</span> the national average. because real work deserves real money.
               </p>
               <p>
-                You'll get real sales training from industry veterans, furnished housing so you can focus on work, and a team that actually has your back. No corporate hand-waving. Just results.
+                You'll get real sales training from industry veterans and a team that actually has your back. No corporate hand-waving. Just results.
               </p>
               <p className="text-white font-medium">
                 This is where closers get built.
@@ -455,7 +455,7 @@ export default function App() {
             <Benefit num="01" title="Serious Compensation" desc="Average intern pay of $4,300/month. more than double the national intern average. Commission-based with uncapped upside." />
           </Reveal>
           <Reveal>
-            <Benefit num="02" title="Furnished Housing" desc="Show up and get to work. Company-provided housing so you can focus on selling, not apartment hunting." />
+            <Benefit num="02" title="Uncapped Earnings" desc="Commission-based pay with no ceiling. The harder you work, the more you make. Top performers blow past the average." />
           </Reveal>
           <Reveal>
             <Benefit num="03" title="Proven Sales System" desc="You're not figuring this out alone. Hawx gives you a tested playbook, a territory, and a manager who's done it before." />
