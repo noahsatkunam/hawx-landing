@@ -573,18 +573,14 @@ export default function App() {
 
       {/* ── PHOTO GALLERY STRIP ── */}
       <section className="py-4 overflow-hidden border-y border-white/[0.06]">
-        <div className="flex gap-4 photo-scroll">
-          {['/images/eric1.jpg', '/images/gallery3.jpg', '/images/eric2.jpg', '/images/gallery4.jpg', '/images/eric3.jpg', '/images/gallery5.jpg', '/images/gallery6.jpg'].map((src, i) => (
-            <div key={i} className="flex-shrink-0 w-48 h-64 md:w-56 md:h-72 rounded-xl overflow-hidden">
-              <img src={src} alt="" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105" loading="lazy" />
-            </div>
-          ))}
-          {/* Duplicate for seamless scroll */}
-          {['/images/eric1.jpg', '/images/gallery3.jpg', '/images/eric2.jpg', '/images/gallery4.jpg', '/images/eric3.jpg', '/images/gallery5.jpg', '/images/gallery6.jpg'].map((src, i) => (
-            <div key={`dup-${i}`} className="flex-shrink-0 w-48 h-64 md:w-56 md:h-72 rounded-xl overflow-hidden">
-              <img src={src} alt="" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105" loading="lazy" />
-            </div>
-          ))}
+        <div className="flex gap-4 photo-scroll" style={{willChange: 'transform'}}>
+          {[...Array(3)].flatMap((_, setIdx) =>
+            ['/images/eric1.jpg', '/images/gallery3.jpg', '/images/eric2.jpg', '/images/gallery4.jpg', '/images/eric3.jpg', '/images/gallery5.jpg', '/images/gallery6.jpg'].map((src, i) => (
+              <div key={`${setIdx}-${i}`} className="flex-shrink-0 w-48 h-64 md:w-56 md:h-72 rounded-xl overflow-hidden">
+                <img src={src} alt="" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 hover:scale-105" loading="lazy" />
+              </div>
+            ))
+          )
         </div>
       </section>
 

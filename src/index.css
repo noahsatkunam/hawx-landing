@@ -256,7 +256,7 @@ body {
 /* === PHOTO GALLERY SCROLL === */
 @keyframes photo-scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  100% { transform: translateX(calc(-100% / 3)); }
 }
 .photo-scroll {
   animation: photo-scroll 40s linear infinite;
