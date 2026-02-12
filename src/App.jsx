@@ -273,7 +273,7 @@ export default function App() {
               <div className="hero-entrance hero-entrance-1">
                 <div className="inline-flex items-center gap-2 bg-white/[0.05] border border-white/[0.08] rounded-full px-4 py-1.5 mb-8">
                   <div className="w-1.5 h-1.5 rounded-full bg-hawx-green animate-pulse" />
-                  <span className="text-xs font-medium tracking-wide text-neutral-400 uppercase">Now Recruiting · Summer 2025</span>
+                  <span className="text-xs font-medium tracking-wide text-neutral-400 uppercase">Now Recruiting · Summer 2026</span>
                 </div>
               </div>
               
