@@ -287,8 +287,7 @@ export default function App() {
               <div className="hero-entrance hero-entrance-3">
                 <p className="text-lg md:text-xl text-neutral-400 leading-relaxed max-w-lg mb-10">
                   Sell door-to-door for Hawx Pest Control. Earn <span className="text-white font-medium">$4,300/month average</span>. 
-                  Get mentored by a <span className="text-white font-medium">billionaire founder</span>. 
-                  Build skills that transfer to literally any career.
+                  Build real sales skills that transfer to literally any career.
                 </p>
               </div>
 
@@ -314,7 +313,7 @@ export default function App() {
         <div className="flex whitespace-nowrap marquee-track">
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex items-center gap-8 mr-8">
-              {['14 States', '24+ Locations', '$4,300/mo Avg Pay', '$1M VC Fund', 'AI-Powered Tech', 'Founded 2013', 'Top Workplaces 2023', 'How Hard Can It Be'].map((t, j) => (
+              {['14 States', '24+ Locations', '$4,300/mo Avg Pay', 'Furnished Housing', 'AI-Powered Tech', 'Founded 2013', 'Top Workplaces 2023', 'How Hard Can It Be'].map((t, j) => (
                 <span key={j} className="flex items-center gap-8">
                   <span className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500">{t}</span>
                   <span className="text-hawx-green/30 text-xs">◆</span>
@@ -333,9 +332,9 @@ export default function App() {
           </Reveal>
           <StaggerReveal className="grid grid-cols-2 lg:grid-cols-4 gap-12 md:gap-16">
             <Stat value="$4,300" label="Monthly intern pay" />
-            <Stat value="$1M" label="Venture capital fund" />
-            <Stat value="$3.5B" label="Chairman's last exit" />
-            <Stat value="14" label="States nationwide" suffix="+" />
+            <Stat value="24" label="Locations nationwide" suffix="+" />
+            <Stat value="14" label="States and growing" suffix="+" />
+            <Stat value="2013" label="Founded" />
           </StaggerReveal>
         </div>
       </section>
@@ -402,10 +401,10 @@ export default function App() {
                 43% of US internships are unpaid. Hawx pays <span className="text-white">more than double</span> the national average. because real work deserves real money.
               </p>
               <p>
-                Through the <span className="text-hawx-green">Paulus Entrepreneur Program</span>, you get monthly masterclasses, mentorship from a founder who built a $3.5B company, and access to a million-dollar venture fund for your own ideas.
+                You'll get real sales training from industry veterans, furnished housing so you can focus on work, and a team that actually has your back. No corporate hand-waving. Just results.
               </p>
               <p className="text-white font-medium">
-                This is where operators get built.
+                This is where closers get built.
               </p>
             </div>
           </Reveal>
@@ -448,7 +447,7 @@ export default function App() {
             <HAWXLetter
               letter="X"
               word="eXcellence"
-              desc="Good enough isn't good enough. We push for the best. in our service, our tech, our people. That's how you build a billion-dollar company."
+              desc="Good enough isn't good enough. We push for the best in our service, our tech, our people. That's how Hawx keeps growing."
               delay={0}
             />
           </div>
@@ -469,19 +468,19 @@ export default function App() {
             <Benefit num="01" title="Serious Compensation" desc="Average intern pay of $4,300/month. more than double the national intern average. Commission-based with uncapped upside." />
           </Reveal>
           <Reveal>
-            <Benefit num="02" title="Paulus Entrepreneur Program" desc="12-month program with monthly masterclasses, quarterly events with billionaire operator Michael Paulus, and hands-on business building." />
+            <Benefit num="02" title="Furnished Housing" desc="Show up and get to work. Company-provided housing so you can focus on selling, not apartment hunting." />
           </Reveal>
           <Reveal>
-            <Benefit num="03" title="$1M Venture Capital Fund" desc="Have a business idea? Pitch it. Hawx employees can access a dedicated $1,000,000 VC fund through the Flock Accelerator. Your idea, their backing." />
+            <Benefit num="03" title="Proven Sales System" desc="You're not figuring this out alone. Hawx gives you a tested playbook, a territory, and a manager who's done it before." />
           </Reveal>
           <Reveal>
-            <Benefit num="04" title="Business Plan Competition" desc="Submit your proposal and compete. $5,000 for 1st, $2,000 for 2nd, $1,000 for 3rd. Plus a $2.5M scholarship fund for interns." />
+            <Benefit num="04" title="Career Launchpad" desc="D2D alumni go on to crush it in tech sales, real estate, finance, and startups. The skills you build here transfer everywhere." />
           </Reveal>
           <Reveal>
-            <Benefit num="05" title="Real Sales Training" desc="Learn from industry veterans. Build the face-to-face communication and closing skills that every career needs. tech, law, finance, startups." />
+            <Benefit num="05" title="Real Sales Training" desc="Learn from industry veterans. Build the face-to-face communication and closing skills that every career needs." />
           </Reveal>
           <Reveal>
-            <Benefit num="06" title="Furnished Housing Provided" desc="Show up and get to work. Company-provided housing so you can focus on selling, not apartment hunting." />
+            <Benefit num="06" title="Team Culture" desc="Weekly team events, mentorship from top performers, and a crew that pushes each other. You won't do this alone." />
           </Reveal>
         </div>
       </section>
@@ -645,7 +644,7 @@ export default function App() {
         <Reveal>
           <div className="max-w-4xl mx-auto px-6 md:px-10 text-center">
             <blockquote className="text-xl md:text-2xl font-extralight text-white/60 leading-snug tracking-tight" style={{ fontStyle: 'normal' }}>
-              "Your customer is your real boss. not the VC."
+              "How hard can it be?"
             </blockquote>
             <p className="text-sm text-hawx-green/40 mt-4 font-medium tracking-wide">Michael Paulus</p>
           </div>
